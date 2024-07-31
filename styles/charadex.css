@@ -15,14 +15,14 @@ body {
   /* ============================================================= */
   /* Primary Color
   ================================================================ */
-  --cd-primary-color:                    #f0f8ef;
-  --cd-primary-text-color:               #4d644c;
+  --cd-primary-color:                    #b4cbb1;
+  --cd-primary-text-color:               #354535;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #bc8f63;
-  --cd-secondary-text-color:             #0b9ec7;
+  --cd-secondary-color:                  #789677;
+  --cd-secondary-text-color:             #4d644c;
 
   /* ============================================================= */
   /* Backgrounds
@@ -62,7 +62,7 @@ body {
   /* ============================================================= */
   /* Main Fonts
   ================================================================ */
-  --cd-body-font-family:                 'Montserrat', sans-serif;
+  --cd-body-font-family:                 'Comfortaa', sans-serif;
   --cd-header-font-family:               'Comfortaa', sans-serif;
 
 

@@ -16,19 +16,19 @@ body {
   /* Primary Color
   ================================================================ */
   --cd-primary-color:                    #b4cbb1;
-  --cd-primary-text-color:               #354535;
+  --cd-primary-text-color:               #4d644c;
 
   /* ============================================================= */
   /* Secondary Color
   ================================================================ */
-  --cd-secondary-color:                  #789677;
-  --cd-secondary-text-color:             #4d644c;
+  --cd-secondary-color:                  #c39a81;
+  --cd-secondary-text-color:             #755138;
 
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #f8f8f8;
-  --cd-content-background-color:         #ffffff;
+  --cd-body-background-color:            #f0f8ef;
+  --cd-content-background-color:         #f0f8ef;
   --cd-faded-background-color:           #f8f8f8;
 
   /* Background Extras */

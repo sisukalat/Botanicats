@@ -19,7 +19,6 @@ let sheetPages = {
     prompts: "prompts",
     faq: "faq",
     staff: "mods",
-    news: "news,"
 
 }
 
@@ -147,17 +146,5 @@ let options = {
     
     },
 
-    /* FAQ
-    /* --------------------------------------------------------------- */
-    news: {
-    
-        sheetPage: sheetPages.news,
-    
-        itemAmount: 24,
-        itemOrder: "asc",
-    
-        searchFilterParams: ['Tags'],
-    
-    },
 
 }

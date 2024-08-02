@@ -112,7 +112,7 @@ let options = {
 
     /* Quests
     /* --------------------------------------------------------------- */
-    prompts: {
+    quests: {
     
         sheetPage: sheetPages.quests,
 
@@ -173,7 +173,7 @@ let options = {
         itemAmount: 24,
         itemOrder: "asc",
     
-        searchFilterParams: ['Tags-'],
+        searchFilterParams: ['Tags'],
     
     },
 

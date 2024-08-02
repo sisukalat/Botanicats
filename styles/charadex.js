@@ -643,6 +643,44 @@ const frontPage = (options) => {
 
     const charadexInfo = optionSorter(options);
 
+ // News
+ let addNews = async () => {
+    if ($("#news-gallery").length != 0) {
+        if ( charadexInfo.numOfPrompts != 0) {
+
+            // Grab dah sheet
+            let news = await fetchSheet(charadexInfo.newsSheetPage);
+            let cardKey = Object.keys(news[0])[0];
+
+            // Sort by End Date
+            let newestNews = news.sort(function (a, b) {
+                var c = new Date(a.enddate);
+                var d = new Date(b.enddate);
+                return d - c;
+            });
+
+            // Show x Amount on Index
+            let indexNews = newestNews.slice(0, charadexInfo.numOfPrompts);
+
+            // Add card link
+            for (var i in indexNews) { indexNews[i].cardlink = folderURL + "news.html?" + cardKey + "=" + indexNews[i][cardKey]; }
+
+            // Nyoom
+            let galleryOptions = {
+                item: 'prompt-item',
+                valueNames: sheetArrayKeys(indexNews),
+            };
+
+            // Render Gallery
+            let charadex = new List('prompt-gallery', galleryOptions, indexNews);
+
+        } else {
+            $("#prompt-gallery").hide();
+        }
+    }
+}; addNews();
+
+
     // Events
     let addEvents = async () => {
         if ($("#prompt-gallery").length != 0) {

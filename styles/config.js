@@ -148,4 +148,17 @@ let options = {
     },
 
 
+    /* News
+    /* --------------------------------------------------------------- */
+    news: {
+    
+        sheetPage: sheetPages.news,
+    
+        itemAmount: 24,
+        itemOrder: "asc",
+    
+        searchFilterParams: ['Tags'],
+    
+    },
+
 }

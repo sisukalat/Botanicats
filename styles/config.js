@@ -109,6 +109,22 @@ let options = {
     },
 
 
+
+    /* Quests
+    /* --------------------------------------------------------------- */
+    prompts: {
+    
+        sheetPage: sheetPages.quests,
+
+        itemAmount: 24,
+        itemOrder: "desc",
+
+        searchFilterParams: ['Title'],
+    
+    },
+
+
+
     /* Traits
     /* --------------------------------------------------------------- */
     traits: {

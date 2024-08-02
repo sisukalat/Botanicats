@@ -35,6 +35,9 @@ let options = {
     /* --------------------------------------------------------------- */
     index: {
 
+        newsSheetPage: sheetPages.news,
+        numOfNews: 3,
+
         promptSheetPage: sheetPages.prompts,
         numOfPrompts: 3,
 

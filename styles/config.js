@@ -19,6 +19,7 @@ let sheetPages = {
     prompts: "prompts",
     faq: "faq",
     staff: "mods",
+    news: "news",
 
 }
 

@@ -20,6 +20,7 @@ let sheetPages = {
     faq: "faq",
     staff: "mods",
     news: "news",
+    quests: "quests",
 
 }
 

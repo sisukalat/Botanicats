@@ -667,7 +667,7 @@ const frontPage = (options) => {
 
             // Nyoom
             let galleryOptions = {
-                item: 'prompt-item',
+                item: 'news-item',
                 valueNames: sheetArrayKeys(indexNews),
             };
 
@@ -675,7 +675,7 @@ const frontPage = (options) => {
             let charadex = new List('prompt-gallery', galleryOptions, indexNews);
 
         } else {
-            $("#prompt-gallery").hide();
+            $("#news-gallery").hide();
         }
     }
 }; addNews();

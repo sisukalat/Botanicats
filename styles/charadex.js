@@ -646,7 +646,7 @@ const frontPage = (options) => {
  // News
  let addNews = async () => {
     if ($("#news-gallery").length != 0) {
-        if ( charadexInfo.numOfPrompts != 0) {
+        if ( charadexInfo.numOfNews != 0) {
 
             // Grab dah sheet
             let news = await fetchSheet(charadexInfo.newsSheetPage);
@@ -660,7 +660,7 @@ const frontPage = (options) => {
             });
 
             // Show x Amount on Index
-            let indexNews = newestNews.slice(0, charadexInfo.numOfPrompts);
+            let indexNews = newestNews.slice(0, charadexInfo.numOfNews);
 
             // Add card link
             for (var i in indexNews) { indexNews[i].cardlink = folderURL + "news.html?" + cardKey + "=" + indexNews[i][cardKey]; }
@@ -672,7 +672,7 @@ const frontPage = (options) => {
             };
 
             // Render Gallery
-            let charadex = new List('prompt-gallery', galleryOptions, indexNews);
+            let charadex = new List('news-gallery', galleryOptions, indexNews);
 
         } else {
             $("#news-gallery").hide();

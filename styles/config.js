@@ -21,7 +21,6 @@ let sheetPages = {
     staff: "mods",
     news: "news",
     quests: "quests",
-    TH: "TH"
 
 }
 

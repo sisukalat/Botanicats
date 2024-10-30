@@ -163,6 +163,7 @@ let options = {
         itemAmount: 24,
         itemOrder: "asc",
     
+        filterColumn: 'Category',
         searchFilterParams: ['Tags'],
     
     },

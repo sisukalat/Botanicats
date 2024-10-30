@@ -92,7 +92,7 @@ let options = {
         logSheetPage: sheetPages.inventoryLog,
     
         itemAmount: 24,
-        sortTypes: ['Currency', 'MYO Slot', 'Standard Trait', 'Nature Trait', 'Alteration', 'Breeding', 'Pets'],
+        sortTypes: ['Currency', 'MYO Slot', 'Standard Trait', 'Nature Trait', 'Alteration', 'Breeding', 'Pets',],
         
         searchFilterParams: ['Username'],
     
@@ -162,9 +162,10 @@ let options = {
     
         itemAmount: 24,
         itemOrder: "asc",
-    
-        sortTypes: 'Category',
+
+        filterColumn: 'Category',
         searchFilterParams: ['Tags'],
+        
     
     },
 

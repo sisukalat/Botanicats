@@ -165,6 +165,7 @@ let options = {
 
         filterColumn: 'Category',
         searchFilterParams: ['Tags'],
+        fauxFolderColumn: 'Category',
         
     
     },
